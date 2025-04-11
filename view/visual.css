@@ -10,6 +10,19 @@ body
     background-repeat: no-repeat; /*evita repetição*/
 }
 
+.button
+{
+    padding: 90px 100px;
+    background-color: #ec8a81;
+    position: absolute;
+    left: 10%;
+    background-image: url(../Image/Sushi.png);
+    background-position: center;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
 .circle
 {
     
