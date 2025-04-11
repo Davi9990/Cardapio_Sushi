@@ -1,0 +1,20 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../Image/Fundojapones.jpg);
+    background-size: cover; /*cobre toda a tela*/
+    background-position: center; /*Centralizada a imagem*/
+    background-repeat: no-repeat; /*evita repetição*/
+}
+
+.circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 5% auto;
+}
