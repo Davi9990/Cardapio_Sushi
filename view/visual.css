@@ -8,6 +8,8 @@ body
     background-size: cover; /*cobre toda a tela*/
     background-position: center; /*Centralizada a imagem*/
     background-repeat: no-repeat; /*evita repetição*/
+    background-attachment: fixed;
+
 }
 
 .button
@@ -16,21 +18,69 @@ body
     background-color: #ec8a81;
     position: absolute;
     left: 10%;
-    background-image: url(../Image/Sushi.png);
+    background-image: url(../Image/Sushi_3.png);
     background-position: center;
+    background-size: cover;
     border: none;
     border-radius: 100px;
+    display: block;
     cursor: pointer;
+    margin: 0 auto;
+}
+
+.button2
+{
+    padding: 90px 100px;
+    background-color: #ec8a81;
+    position: absolute;
+    left: 30%;
+    background-image: url(../Image/Comida_Quente_1.png);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 100px;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.button-text
+{
+    font-size: 30px;
+    position: absolute;
+    display: block;
+    margin-top: 200px;
+    left: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+.button-text1
+{
+    font-size: 30px;
+    position: absolute;
+    display: block;
+    margin-top: 200px;
+    left: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+.button-container
+{
+    position: absolute;
+    left: 10%;
+    text-align: center;
 }
 
 .circle
 {
-    
     width: 300px;
     height: 300px;
     background-image: url(../Image/Logo_Sushi.png);
     background-position: center; /*Centralizada a imagem*/
-    margin: 10% auto;
+    background-repeat: no-repeat;
+    margin: 1% auto;
 }
 
 .Tamanho
@@ -39,18 +89,31 @@ body
     text-align: center;
     margin: 5%;
     color: black;
-    font-family: 'Franklin Gothic Medium'f;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+}
+
+.Tamanho2
+{
+    font-size: 20px;
+    text-align: end;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Franklin Gothic Medium',sans-serif;
 }
 
 .Caixa1
 {
     background-color: #fabdb7;
-    position: absolute;
-    left: 20%;
     font-size: 10px;
-    text-align: center;
+    text-align: left;
     width: 600px;
     height: 600px;
     border-radius: 10%;
-    flex-shrink: 0; /* Evita que sejam comprimidas*/
+    box-sizing: border-box;
+    padding: 20px;
+
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
