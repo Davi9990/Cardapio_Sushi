@@ -12,17 +12,7 @@ body
 
 }
 
-.icon
-{
-    padding: 90px 100px;
-    background-color: #ec8a81;
-    background-image: url(../Image/Gunkan.png);
-    background-position: center;
-    background-size: cover;
-    border: none;
-    border-radius: 100px;
-    cursor: pointer; 
-}
+
 
 .button-row
 {
@@ -194,10 +184,9 @@ body
     font-weight: bold;
 }
 
-.icon, .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10, .icon11, .icon12, .icon13, .icon14, .icon15,.icon16,.icon17,.icon18,.icon19,.icon20, .icon21 {
+.icon{
     width: 90px;
     height: 90px;
-    background-image: url(../Image/Gunkan.png);
     background-color: #ec8a81;
     background-position: center;
     background-size: cover;
@@ -205,108 +194,4 @@ body
     border-radius: 50%;
     cursor: pointer;
     padding: 0; /* Remove o padding que estava ampliando */
-}
-
-.icon
-{
-    background-image: url(../Image/Gunkan.png);
-}
-
-.icon2 {
-    background-image: url(../Image/Temaki.png);
-}
-
-.icon3
-{
-    background-image: url(../Image/HotRoll.png);
-}
-
-.icon4
-{
-    background-image: url(../Image/Joe.png);
-}
-
-.icon5
-{
-    background-image: url(../Image/SashimideTilapia.png);
-}
-
-.icon6
-{
-    background-image: url(../Image/SashimideAtum.png);
-}
-
-.icon7
-{
-    background-image: url(../Image/SashimideSalmão.png);
-}
-
-.icon8
-{
-    background-image: url(../Image/Tempurádelegumes.png);
-}
-
-.icon9
-{
-    background-image: url(../Image/RamendeCarne.png);
-}
-
-.icon10
-{
-    background-image: url(../Image/FrangoTerigaki.png);
-}
-
-.icon11
-{
-    background-image: url(../Image/MissoShiru.png);
-}
-
-.icon12
-{
-    background-image: url(../Image/ShimejinaChapa.png);
-}
-
-.icon13
-{
-    background-image: url(../Image/MissoShirudecarne.png);
-}
-
-.icon14
-{
-    background-image: url(../Image/LamemVegetariano.png);
-}
-
-.icon15
-{
-    background-image: url(../Image/MochiMacha.png);
-}
-
-.icon16
-{
-    background-image: url(../Image/SorvetedeTempura.png);
-}
-
-.icon17
-{
-    background-image: url(../Image/Chessecakedematcha.png);
-}
-
-.icon18
-{
-    background-image: url(../Image/Manju.png);
-}
-
-.icon19
-{
-    background-image: url(../Image/Daifuku.png);
-}
-
-.icon20
-{
-    background-image: url(../Image/Mitarashidango.png);
-}
-
-.icon21
-{
-    background-image: url(../Image/Anpam.png);
 }
