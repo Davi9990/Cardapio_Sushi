@@ -171,7 +171,7 @@ body
     width: 90vw;
     max-width: 600px;
     height: auto;
-    min-height: 70vh;
+    min-height: 50vh;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 2rem;
@@ -194,15 +194,17 @@ body
     font-weight: bold;
 }
 
-.icon, .icon2 {
-    width: 20px !important; 
-    height: 20px !important;
+.icon, .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9 {
+    width: 90px;
+    height: 90px;
+    background-image: url(../Image/Gunkan.png);
     background-color: #ec8a81;
     background-position: center;
     background-size: cover;
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    padding: 0; /* Remove o padding que estava ampliando */
 }
 
 .icon
@@ -212,4 +214,39 @@ body
 
 .icon2 {
     background-image: url(../Image/Temaki.png);
+}
+
+.icon3
+{
+    background-image: url(../Image/HotRoll.png);
+}
+
+.icon4
+{
+    background-image: url(../Image/Joe.png);
+}
+
+.icon5
+{
+    background-image: url(../Image/SashimideTilapia.png);
+}
+
+.icon6
+{
+    background-image: url(../Image/SashimideAtum.png);
+}
+
+.icon7
+{
+    background-image: url(../Image/SashimideSalmão.png);
+}
+
+.icon8
+{
+    background-image: url(../Image/Tempurádelegumes.png);
+}
+
+.icon9
+{
+    background-image: url(../Image/RamendeCarne.png);
 }
