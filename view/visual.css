@@ -194,7 +194,7 @@ body
     font-weight: bold;
 }
 
-.icon, .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9 {
+.icon, .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10, .icon11, .icon12, .icon13, .icon14 {
     width: 90px;
     height: 90px;
     background-image: url(../Image/Gunkan.png);
@@ -249,4 +249,29 @@ body
 .icon9
 {
     background-image: url(../Image/RamendeCarne.png);
+}
+
+.icon10
+{
+    background-image: url(../Image/FrangoTerigaki.png);
+}
+
+.icon11
+{
+    background-image: url(../Image/MissoShiru.png);
+}
+
+.icon12
+{
+    background-image: url(../Image/ShimejinaChapa.png);
+}
+
+.icon13
+{
+    background-image: url(../Image/MissoShirudecarne.png);
+}
+
+.icon14
+{
+    background-image: url(../Image/LamemVegetariano.png);
 }
