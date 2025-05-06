@@ -194,7 +194,7 @@ body
     font-weight: bold;
 }
 
-.icon, .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10, .icon11, .icon12, .icon13, .icon14 {
+.icon, .icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10, .icon11, .icon12, .icon13, .icon14, .icon15,.icon16,.icon17,.icon18,.icon19,.icon20, .icon21 {
     width: 90px;
     height: 90px;
     background-image: url(../Image/Gunkan.png);
@@ -274,4 +274,39 @@ body
 .icon14
 {
     background-image: url(../Image/LamemVegetariano.png);
+}
+
+.icon15
+{
+    background-image: url(../Image/MochiMacha.png);
+}
+
+.icon16
+{
+    background-image: url(../Image/SorvetedeTempura.png);
+}
+
+.icon17
+{
+    background-image: url(../Image/Chessecakedematcha.png);
+}
+
+.icon18
+{
+    background-image: url(../Image/Manju.png);
+}
+
+.icon19
+{
+    background-image: url(../Image/Daifuku.png);
+}
+
+.icon20
+{
+    background-image: url(../Image/Mitarashidango.png);
+}
+
+.icon21
+{
+    background-image: url(../Image/Anpam.png);
 }
